@@ -2,14 +2,15 @@
 # yarn lockfile v1
 
 
-"@foo/foo@file:./node_modules/@foo/foo":
+"@d4kmor/foo@^0.0.1":
   version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@d4kmor/foo/-/foo-0.0.1.tgz#bcc2d6bb5f914a1befd9ee48c9deefd8f64da302"
+  integrity sha512-Pd/Ic4zkYjTtUeCjAOfO3FjFIdnJsj7AiD8nwFC6aALwEIzDla/bqEbO6aYqjmprcpKgPMPYzLCQCL/9qyDi/g==
 
-"bar@file:./node_modules/bar":
+"@d4kmor/nom@^0.0.1":
   version "0.0.1"
-
-"nom@file:./node_modules/nom":
-  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@d4kmor/nom/-/nom-0.0.1.tgz#c30c281aeab5e9a3b40678f0791d359edb941c0f"
+  integrity sha512-MMxDHXefqerswZ0jpbC/n26vlJWm7UzKgreVcAJc6vnrAEw53z6dC6ynTSAd65AdH6bQ9b1/nU+/9GUSKz+g5g==
 
 typescript@^3.3.3333:
   version "3.3.3333"

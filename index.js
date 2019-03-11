@@ -1,5 +1,5 @@
-import { foo } from "@foo/foo";
-import { nom } from "nom";
+import { foo } from "@d4kmor/foo";
+import { nom } from "@d4kmor/nom";
 
 let msg = "";
 

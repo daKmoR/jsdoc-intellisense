@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@foo/foo": "file:./node_modules/@foo/foo",
-    "bar": "file:./node_modules/bar",
-    "nom": "file:./node_modules/nom",
+    "@d4kmor/foo": "^0.0.1",
+    "@d4kmor/nom": "^0.0.1",
     "typescript": "^3.3.3333"
   },
   "devDependencies": {},

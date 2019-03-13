@@ -10,16 +10,20 @@ yarn install
 ## Live linting via IDE
 
 Works perfectly fine when using a `jsconfig.json`.
-JsDocs only linting stops if a `tsconfig.json` exists...
+<img src="./assets/jsconfigOnly.png" />
+
+JsDocs only linting stops if a `tsconfig.json` exists.
+<img src="./assets/tsconfigAsWell.png" />
 
 
 ## Linting to be used in a CI
 
-JsDoc does alone does not seem to be enough when using packages from node_modules.
+Typescript ignores JsDoc types from node_modules.
+JsDoc types from files within the repository are fine.
 
 Run
 ```bash
-npm run lint:types
+tsc
 ```
 
 ### Expected
@@ -27,6 +31,7 @@ npm run lint:types
 Error "An argument for 'name' was not provided." for
 ```
 msg += foo();
+msg += bar();
 msg += nom();
 ```
 
@@ -34,5 +39,6 @@ msg += nom();
 
 Error "An argument for 'name' was not provided." for
 ```
+msg += bar();
 msg += nom();
 ```

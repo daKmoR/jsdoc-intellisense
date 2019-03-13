@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "lint:types": "tsc --allowJs --checkJs --noEmit --moduleResolution node --target ES6 *.js"
+    "lint:types": "tsc"
   },
   "keywords": [],
   "author": "",

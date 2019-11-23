@@ -10,8 +10,7 @@
     "noImplicitThis": true,
     "alwaysStrict": true
   },
-  "exclude": [
-    "node_modules",
-    "**/node_modules/*"
+  "include": [
+    "node_modules/@d4kmor/**/*.js"
   ]
 }
